@@ -4,7 +4,6 @@
   "lede": "Każde ma inny cel, inny plan lotu i inny sposób montażu. Wycena zawsze zaczyna się od tego, gdzie materiał ma trafić.",
   "items": [
     {
-      "code": "TUR",
       "title": "Turystyka i hotele",
       "text": "Materiały, które sprzedają miejsce, zanim gość przeczyta opis. Ujęcia obiektu i okolicy w złotej godzinie, przygotowane pod Booking, stronę i social media.",
       "points": [
@@ -14,7 +13,6 @@
       ]
     },
     {
-      "code": "NRH",
       "title": "Nieruchomości i inwestycje",
       "text": "Prezentacja działki, budynku i otoczenia w jednym ujęciu. Dla deweloperów i biur sprzedaży — z naniesieniem granic działki i opisem sąsiedztwa, jeśli materiał ma iść do oferty.",
       "points": [
@@ -24,7 +22,6 @@
       ]
     },
     {
-      "code": "INS",
       "title": "Inspekcje i dokumentacja",
       "text": "Oględziny bez rusztowań i podnośnika. Dachy, kominy, elewacje, farmy PV oraz cykliczna dokumentacja postępu prac na budowie — z opisem daty i miejsca w każdym pliku.",
       "points": [
