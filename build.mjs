@@ -1,18 +1,70 @@
 /**
  * Generator strony Skyshot Polska.
- * Czyta treść z src/content/*.json, szablon stylów z src/styles.css
+ * Czyta treść z plików JSON, styl z styles.css, zdjęcia z folderu media
  * i zapisuje gotową stronę do katalogu dist/.
+ *
+ * Pliki mogą leżeć w podfolderach (src/content/, src/, media/)
+ * albo wszystkie luzem w głównym katalogu — generator radzi sobie z obydwoma
+ * układami, więc kolejność wgrywania na GitHuba nie ma znaczenia.
  *
  * Uruchomienie lokalne:  node build.mjs
  * Na Netlify uruchamia się automatycznie (patrz netlify.toml).
  */
-import { readFileSync, writeFileSync, mkdirSync, cpSync, rmSync, existsSync } from 'node:fs';
-import { join, dirname } from 'node:path';
+import {
+  readFileSync, writeFileSync, mkdirSync, copyFileSync,
+  readdirSync, rmSync, existsSync, statSync,
+} from 'node:fs';
+import { join, dirname, basename, extname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
 const root = dirname(fileURLToPath(import.meta.url));
 const read = (p) => readFileSync(join(root, p), 'utf8');
-const json = (name) => JSON.parse(read(`src/content/${name}.json`));
+
+// Szuka pliku najpierw w podfolderze, potem w katalogu głównym.
+// Pomija pliki puste — po nieudanym wgrywaniu potrafią zostać w repozytorium
+// puste skorupki, które nie powinny przesłaniać poprawnej wersji.
+const find = (...candidates) => {
+  const hit = candidates.find(
+    (c) => existsSync(join(root, c)) && statSync(join(root, c)).size > 0
+  );
+  if (!hit) {
+    throw new Error(
+      `Nie znaleziono pliku z treścią. Szukałem w: ${candidates.join(', ')}\n` +
+        'Sprawdź, czy plik jest w repozytorium i czy nie jest pusty.'
+    );
+  }
+  return hit;
+};
+
+// Wczytuje treść z pierwszego pliku, który daje się poprawnie odczytać.
+const json = (name) => {
+  const candidates = [`src/content/${name}.json`, `${name}.json`];
+  const problems = [];
+
+  for (const c of candidates) {
+    const full = join(root, c);
+    if (!existsSync(full)) continue;
+
+    const raw = read(c).trim();
+    if (!raw) {
+      problems.push(`${c} — plik jest pusty, pomijam`);
+      continue;
+    }
+    try {
+      return JSON.parse(raw);
+    } catch (e) {
+      problems.push(`${c} — błąd składni JSON: ${e.message}`);
+    }
+  }
+
+  throw new Error(
+    `Nie udało się wczytać treści sekcji "${name}".\n` +
+      (problems.length
+        ? problems.join('\n')
+        : `Nie znaleziono żadnego z plików: ${candidates.join(', ')}`) +
+      '\nPopraw wskazany plik w repozytorium i zapisz zmianę.'
+  );
+};
 
 const site = json('site');
 const hero = json('hero');
@@ -397,8 +449,30 @@ if (existsSync(dist)) rmSync(dist, { recursive: true });
 mkdirSync(dist, { recursive: true });
 
 writeFileSync(join(dist, 'index.html'), html);
-writeFileSync(join(dist, 'styles.css'), read('src/styles.css'));
-cpSync(join(root, 'media'), join(dist, 'media'), { recursive: true });
+writeFileSync(join(dist, 'styles.css'), read(find('src/styles.css', 'styles.css')));
+
+// Zdjęcia trafiają do dist/media niezależnie od tego, gdzie leżą w repozytorium.
+const IMG = /\.(jpe?g|png|webp|svg|avif|gif|ico)$/i;
+const mediaOut = join(dist, 'media');
+mkdirSync(mediaOut, { recursive: true });
+
+let copied = 0;
+for (const dir of ['media', '.']) {
+  const from = join(root, dir);
+  if (!existsSync(from)) continue;
+  for (const name of readdirSync(from)) {
+    const src = join(from, name);
+    if (!IMG.test(name) || !statSync(src).isFile()) continue;
+    const target = join(mediaOut, basename(name));
+    if (existsSync(target)) continue; // folder media ma pierwszeństwo
+    copyFileSync(src, target);
+    copied++;
+  }
+}
+
+if (copied === 0) {
+  console.warn('Uwaga: nie znaleziono żadnych zdjęć — strona wyświetli się bez grafik.');
+}
 
 writeFileSync(
   join(dist, 'robots.txt'),
