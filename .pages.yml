@@ -1,19 +1,11 @@
 # Konfiguracja panelu Pages CMS (app.pagescms.org)
 # Opisuje, co i w jakiej formie można edytować przez przeglądarkę.
 
-media:
-  - name: zdjecia
-    label: Zdjęcia
-    input: media
-    output: /media
-    extensions: [jpg, jpeg, png, webp]
-    categories: [image]
-
 content:
   - name: hero
     label: Nagłówek strony
     type: file
-    path: src/content/hero.json
+    path: hero.json
     icon: image
     fields:
       - name: eyebrow
@@ -34,9 +26,8 @@ content:
         type: string
       - name: image
         label: Zdjęcie w tle
-        type: image
-        options:
-          media: zdjecia
+        type: string
+        description: "Ścieżka do zdjęcia, np. /media/warszawa.jpg"
       - name: imageAlt
         label: Opis zdjęcia (dla Google i czytników)
         type: string
@@ -55,7 +46,7 @@ content:
   - name: services
     label: Usługi
     type: file
-    path: src/content/services.json
+    path: services.json
     icon: list
     fields:
       - name: eyebrow
@@ -89,7 +80,7 @@ content:
   - name: work
     label: Realizacje
     type: file
-    path: src/content/work.json
+    path: work.json
     icon: image
     fields:
       - name: eyebrow
@@ -105,9 +96,8 @@ content:
         fields:
           - name: image
             label: Zdjęcie
-            type: image
-            options:
-              media: zdjecia
+            type: string
+            description: "Ścieżka do zdjęcia, np. /media/warszawa.jpg"
           - name: alt
             label: Opis zdjęcia (dla Google)
             type: string
@@ -127,7 +117,7 @@ content:
   - name: process
     label: Proces
     type: file
-    path: src/content/process.json
+    path: process.json
     icon: check-square
     fields:
       - name: eyebrow
@@ -151,7 +141,7 @@ content:
   - name: pricing
     label: Cennik
     type: file
-    path: src/content/pricing.json
+    path: pricing.json
     icon: tag
     fields:
       - name: eyebrow
@@ -211,7 +201,7 @@ content:
   - name: contact
     label: Kontakt
     type: file
-    path: src/content/contact.json
+    path: contact.json
     icon: mail
     fields:
       - name: eyebrow
@@ -255,7 +245,7 @@ content:
   - name: site
     label: Ustawienia strony
     type: file
-    path: src/content/site.json
+    path: site.json
     icon: settings
     fields:
       - name: brandName
@@ -272,14 +262,12 @@ content:
         type: string
       - name: ogImage
         label: Zdjęcie przy udostępnianiu linku
-        type: image
-        options:
-          media: zdjecia
+        type: string
+        description: "Ścieżka do zdjęcia, np. /media/warszawa.jpg"
       - name: logo
         label: Logo
-        type: image
-        options:
-          media: zdjecia
+        type: string
+        description: "Ścieżka do zdjęcia, np. /media/warszawa.jpg"
       - name: nav
         label: Menu
         type: object
