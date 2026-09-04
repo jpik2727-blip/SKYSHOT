@@ -1,0 +1,70 @@
+{
+  "eyebrow": "Cennik",
+  "heading": "Ceny orientacyjne — punkt wyjścia do rozmowy.",
+  "lede": "Ostateczna wycena zależy od lokalizacji, długości materiału i zakresu postprodukcji. Dojazd w granicach Białegostoku w cenie.",
+  "footnote": "Ceny netto, stanowią punkt wyjścia do wyceny. Wyjazdy poza województwo podlaskie i loty w strefach kontrolowanych wyceniamy indywidualnie.",
+  "tiers": [
+    {
+      "name": "Sesja zdjęciowa / nagraniowa",
+      "tag": "",
+      "price": "250",
+      "unit": "zł netto",
+      "note": "Jedna lokalizacja",
+      "points": [
+        "Krótki materiał z powietrza w ustalonym miejscu",
+        "Zdjęcia i ujęcia wideo w oryginalnej jakości",
+        "Postprodukcja możliwa w indywidualnej wycenie"
+      ],
+      "cta": "Zapytaj o termin",
+      "highlight": false
+    },
+    {
+      "name": "Sesja z postprodukcją",
+      "tag": "Najczęściej wybierana",
+      "price": "350",
+      "unit": "zł netto",
+      "note": "Jedna lokalizacja · materiał gotowy",
+      "points": [
+        "Wszystko z sesji podstawowej",
+        "Selekcja najlepszych kadrów",
+        "Podstawowa obróbka zdjęć lub montaż nagrań"
+      ],
+      "cta": "Zapytaj o termin",
+      "highlight": true
+    },
+    {
+      "name": "Dzień zdjęciowy",
+      "tag": "Projekty wieloetapowe",
+      "price": "1200",
+      "unit": "zł netto",
+      "note": "Kilka lokalizacji w jednym dniu",
+      "points": [
+        "Dłuższe projekty wymagające wielu ujęć",
+        "Praca w kilku lokalizacjach",
+        "Materiał surowy do dalszego wykorzystania"
+      ],
+      "cta": "Zapytaj o termin",
+      "highlight": false
+    },
+    {
+      "name": "Dzień zdjęciowy z postprodukcją",
+      "tag": "Kompleksowa realizacja",
+      "price": "1600",
+      "unit": "zł netto",
+      "note": "Od zdjęć do gotowego materiału",
+      "points": [
+        "Wszystko z dnia zdjęciowego",
+        "Selekcja, montaż i pełna postprodukcja",
+        "Materiał gotowy do publikacji"
+      ],
+      "cta": "Porozmawiajmy",
+      "highlight": false
+    }
+  ],
+  "kit": [
+    { "label": "Sprzęt", "text": "DJI Mini 5 Pro · matryca 1″ CMOS · wideo 4K 60 kl/s w D-Log M" },
+    { "label": "Uprawnienia", "text": "Świadectwa kwalifikacji A1/A3 oraz A2, operator zarejestrowany w ULC" },
+    { "label": "Masa startowa", "text": "Poniżej 250 g — mniej ograniczeń przy lotach w terenie zabudowanym" },
+    { "label": "Zgłoszenia lotów", "text": "Każdy lot zgłaszany w systemie PansaUTM, zgodnie z przepisami ULC" }
+  ]
+}

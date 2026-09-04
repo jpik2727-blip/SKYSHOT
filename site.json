@@ -1,0 +1,17 @@
+{
+  "brandName": "Skyshot Polska",
+  "seoTitle": "Skyshot Polska — fotografia i film z drona | Białystok i Podlasie",
+  "seoDescription": "Zdjęcia i filmy z drona dla hoteli, deweloperów i firm wykonawczych. Białystok, Podlasie i realizacje w całej Polsce. Wycena w 24 godziny.",
+  "siteUrl": "https://skyshotpolska.pl",
+  "ogImage": "/media/warszawa.jpg",
+  "logo": "/media/logo.png",
+  "nav": [
+    { "label": "Usługi", "href": "#uslugi" },
+    { "label": "Realizacje", "href": "#realizacje" },
+    { "label": "Proces", "href": "#proces" },
+    { "label": "Cennik", "href": "#pakiety" }
+  ],
+  "navCta": "Zapytaj o termin",
+  "footerTagline": "Skyshot Polska · fotografia i film z drona",
+  "footerRights": "© 2026 · Wszystkie zdjęcia są własnością Skyshot Polska"
+}

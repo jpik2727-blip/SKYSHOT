@@ -1,0 +1,37 @@
+{
+  "eyebrow": "Usługi",
+  "heading": "Trzy rodzaje zleceń, które robimy najczęściej.",
+  "lede": "Każde ma inny cel, inny plan lotu i inny sposób montażu. Wycena zawsze zaczyna się od tego, gdzie materiał ma trafić.",
+  "items": [
+    {
+      "code": "TUR",
+      "title": "Turystyka i hotele",
+      "text": "Materiały, które sprzedają miejsce, zanim gość przeczyta opis. Ujęcia obiektu i okolicy w złotej godzinie, przygotowane pod Booking, stronę i social media.",
+      "points": [
+        "Pionowe wersje 9:16 pod Reels i TikTok",
+        "Zdjęcia panoramiczne i sferyczne 360°",
+        "Agroturystyka, ośrodki i obiekty nad wodą"
+      ]
+    },
+    {
+      "code": "NRH",
+      "title": "Nieruchomości i inwestycje",
+      "text": "Prezentacja działki, budynku i otoczenia w jednym ujęciu. Dla deweloperów i biur sprzedaży — z naniesieniem granic działki i opisem sąsiedztwa, jeśli materiał ma iść do oferty.",
+      "points": [
+        "Ujęcia orbitalne i dolot do elewacji",
+        "Zdjęcia z nanoszeniem granic i opisów",
+        "Powtarzalne kadry do serii ofertowych"
+      ]
+    },
+    {
+      "code": "INS",
+      "title": "Inspekcje i dokumentacja",
+      "text": "Oględziny bez rusztowań i podnośnika. Dachy, kominy, elewacje, farmy PV oraz cykliczna dokumentacja postępu prac na budowie — z opisem daty i miejsca w każdym pliku.",
+      "points": [
+        "Inspekcja dachu i elewacji w wysokiej rozdzielczości",
+        "Dokumentacja postępu prac w stałych kadrach",
+        "Raport ze zdjęciami w PDF"
+      ]
+    }
+  ]
+}

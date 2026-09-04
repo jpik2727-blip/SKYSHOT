@@ -1,0 +1,15 @@
+{
+  "eyebrow": "Fotografia i film z drona · Białystok i Podlasie",
+  "title": "Perspektywa, której nie da się *wynająć* z ziemi.",
+  "lede": "Kadry lotnicze dla hoteli, deweloperów i firm wykonawczych. Na co dzień latamy w Białymstoku i na Podlasiu, po większe projekty jedziemy w każde miejsce w Polsce.",
+  "ctaPrimary": "Wycena w 24 h",
+  "ctaSecondary": "Zobacz realizacje",
+  "image": "/media/warszawa.jpg",
+  "imageAlt": "Panorama Warszawy z lotu ptaka — Śródmieście i Pałac Kultury",
+  "telemetry": [
+    { "label": "Rozdzielczość", "value": "4K · 60 kl/s · D-Log M" },
+    { "label": "Pułap operacyjny", "value": "do 120 m AGL" },
+    { "label": "Uprawnienia", "value": "A1/A3 · A2" },
+    { "label": "Zasięg", "value": "Podlasie · cała Polska" }
+  ]
+}

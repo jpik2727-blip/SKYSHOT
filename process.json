@@ -1,0 +1,22 @@
+{
+  "eyebrow": "Proces",
+  "heading": "Od telefonu do gotowych plików — cztery kroki.",
+  "items": [
+    {
+      "title": "Rozmowa i wycena",
+      "text": "Ustalamy, co ma powstać i gdzie trafi. Wycenę wysyłamy w ciągu 24 godzin od zapytania."
+    },
+    {
+      "title": "Zgody i plan lotu",
+      "text": "Sprawdzamy strefę w PansaUTM, składamy zgłoszenie i ustalamy okno pogodowe oraz porę dnia."
+    },
+    {
+      "title": "Lot",
+      "text": "Zdjęcia w RAW, wideo w D-Log M. Na miejscu pokazujemy podgląd, żeby nic nie wymagało dolotu."
+    },
+    {
+      "title": "Montaż i przekazanie",
+      "text": "Korekcja barwna, montaż, wersje pod formaty docelowe. Pliki w chmurze, zwykle w 5 dni roboczych."
+    }
+  ]
+}

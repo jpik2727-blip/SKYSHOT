@@ -1,0 +1,41 @@
+{
+  "eyebrow": "Realizacje",
+  "heading": "Wybrane kadry z ostatnich zleceń i wypraw.",
+  "items": [
+    {
+      "image": "/media/szanghaj.jpg",
+      "alt": "Wieżowce Lujiazui w Szanghaju z lotu ptaka",
+      "place": "Szanghaj",
+      "meta": ["31°14′N 121°30′E", "118 m AGL"],
+      "size": "pion"
+    },
+    {
+      "image": "/media/tokio.jpg",
+      "alt": "Nocna panorama Tokio z drona",
+      "place": "Tokio",
+      "meta": ["35°42′N 139°44′E", "ISO 800 · 2 s", "96 m AGL"],
+      "size": "duzy"
+    },
+    {
+      "image": "/media/singapur.jpg",
+      "alt": "Marina Bay Sands w Singapurze nocą z lotu ptaka",
+      "place": "Singapur · Marina Bay",
+      "meta": ["1°17′N 103°51′E", "110 m AGL"],
+      "size": "polowa"
+    },
+    {
+      "image": "/media/fidzi.jpg",
+      "alt": "Rafa koralowa i wybrzeże na Fidżi z lotu ptaka",
+      "place": "Yasawa · Fidżi",
+      "meta": ["17°00′S 177°15′E", "84 m AGL"],
+      "size": "polowa"
+    },
+    {
+      "image": "/media/gili-air.jpg",
+      "alt": "Wyspa Gili Air w Indonezji z lotu ptaka",
+      "place": "Gili Air · Indonezja",
+      "meta": ["8°21′S 116°05′E", "Panorama 3 kadry", "105 m AGL"],
+      "size": "panorama"
+    }
+  ]
+}

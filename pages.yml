@@ -1,0 +1,302 @@
+# Konfiguracja panelu Pages CMS (app.pagescms.org)
+# Opisuje, co i w jakiej formie można edytować przez przeglądarkę.
+
+media:
+  - name: zdjecia
+    label: Zdjęcia
+    input: media
+    output: /media
+    extensions: [jpg, jpeg, png, webp]
+    categories: [image]
+
+content:
+  - name: hero
+    label: Nagłówek strony
+    type: file
+    path: src/content/hero.json
+    icon: image
+    fields:
+      - name: eyebrow
+        label: Linia nad tytułem
+        type: string
+      - name: title
+        label: Tytuł główny
+        type: string
+        description: "Słowo w gwiazdkach zostanie wyróżnione na czerwono, np. *wynająć*"
+      - name: lede
+        label: Akapit pod tytułem
+        type: text
+      - name: ctaPrimary
+        label: Przycisk główny
+        type: string
+      - name: ctaSecondary
+        label: Przycisk dodatkowy
+        type: string
+      - name: image
+        label: Zdjęcie w tle
+        type: image
+        options:
+          media: zdjecia
+      - name: imageAlt
+        label: Opis zdjęcia (dla Google i czytników)
+        type: string
+      - name: telemetry
+        label: Pasek parametrów
+        type: object
+        list: true
+        fields:
+          - name: label
+            label: Nazwa
+            type: string
+          - name: value
+            label: Wartość
+            type: string
+
+  - name: services
+    label: Usługi
+    type: file
+    path: src/content/services.json
+    icon: list
+    fields:
+      - name: eyebrow
+        label: Etykieta sekcji
+        type: string
+      - name: heading
+        label: Nagłówek
+        type: string
+      - name: lede
+        label: Wprowadzenie
+        type: text
+      - name: items
+        label: Usługi
+        type: object
+        list: true
+        fields:
+          - name: code
+            label: Skrót (3 litery)
+            type: string
+          - name: title
+            label: Nazwa usługi
+            type: string
+          - name: text
+            label: Opis
+            type: text
+          - name: points
+            label: Punkty
+            type: string
+            list: true
+
+  - name: work
+    label: Realizacje
+    type: file
+    path: src/content/work.json
+    icon: image
+    fields:
+      - name: eyebrow
+        label: Etykieta sekcji
+        type: string
+      - name: heading
+        label: Nagłówek
+        type: string
+      - name: items
+        label: Zdjęcia
+        type: object
+        list: true
+        fields:
+          - name: image
+            label: Zdjęcie
+            type: image
+            options:
+              media: zdjecia
+          - name: alt
+            label: Opis zdjęcia (dla Google)
+            type: string
+          - name: place
+            label: Miejsce
+            type: string
+          - name: meta
+            label: Dane pod zdjęciem
+            type: string
+            list: true
+          - name: size
+            label: Rozmiar kafelka
+            type: select
+            options:
+              values: [pion, duzy, polowa, panorama]
+
+  - name: process
+    label: Proces
+    type: file
+    path: src/content/process.json
+    icon: check-square
+    fields:
+      - name: eyebrow
+        label: Etykieta sekcji
+        type: string
+      - name: heading
+        label: Nagłówek
+        type: string
+      - name: items
+        label: Kroki
+        type: object
+        list: true
+        fields:
+          - name: title
+            label: Nazwa kroku
+            type: string
+          - name: text
+            label: Opis
+            type: text
+
+  - name: pricing
+    label: Cennik
+    type: file
+    path: src/content/pricing.json
+    icon: tag
+    fields:
+      - name: eyebrow
+        label: Etykieta sekcji
+        type: string
+      - name: heading
+        label: Nagłówek
+        type: string
+      - name: lede
+        label: Wprowadzenie
+        type: text
+      - name: footnote
+        label: Uwaga pod cennikiem
+        type: text
+      - name: tiers
+        label: Pakiety
+        type: object
+        list: true
+        fields:
+          - name: name
+            label: Nazwa pakietu
+            type: string
+          - name: tag
+            label: Wyróżnik (np. Najczęściej wybierana)
+            type: string
+          - name: price
+            label: Cena
+            type: string
+          - name: unit
+            label: Jednostka
+            type: string
+          - name: note
+            label: Podpis pod ceną
+            type: string
+          - name: points
+            label: Co obejmuje
+            type: string
+            list: true
+          - name: cta
+            label: Napis na przycisku
+            type: string
+          - name: highlight
+            label: Wyróżnić ten pakiet
+            type: boolean
+      - name: kit
+        label: Sprzęt i uprawnienia
+        type: object
+        list: true
+        fields:
+          - name: label
+            label: Nazwa
+            type: string
+          - name: text
+            label: Treść
+            type: text
+
+  - name: contact
+    label: Kontakt
+    type: file
+    path: src/content/contact.json
+    icon: mail
+    fields:
+      - name: eyebrow
+        label: Etykieta sekcji
+        type: string
+      - name: heading
+        label: Nagłówek
+        type: string
+      - name: lede
+        label: Wprowadzenie
+        type: text
+      - name: email
+        label: Adres e-mail
+        type: string
+      - name: phone
+        label: Telefon
+        type: string
+      - name: instagram
+        label: Nazwa na Instagramie
+        type: string
+      - name: instagramUrl
+        label: Link do Instagrama
+        type: string
+      - name: base
+        label: Baza
+        type: string
+      - name: area
+        label: Obszar realizacji
+        type: string
+      - name: serviceOptions
+        label: Opcje w formularzu
+        type: string
+        list: true
+      - name: submitLabel
+        label: Napis na przycisku
+        type: string
+      - name: formNote
+        label: Uwaga pod formularzem
+        type: text
+
+  - name: site
+    label: Ustawienia strony
+    type: file
+    path: src/content/site.json
+    icon: settings
+    fields:
+      - name: brandName
+        label: Nazwa firmy
+        type: string
+      - name: seoTitle
+        label: Tytuł w Google
+        type: string
+      - name: seoDescription
+        label: Opis w Google
+        type: text
+      - name: siteUrl
+        label: Adres strony
+        type: string
+      - name: ogImage
+        label: Zdjęcie przy udostępnianiu linku
+        type: image
+        options:
+          media: zdjecia
+      - name: logo
+        label: Logo
+        type: image
+        options:
+          media: zdjecia
+      - name: nav
+        label: Menu
+        type: object
+        list: true
+        fields:
+          - name: label
+            label: Napis
+            type: string
+          - name: href
+            label: Odnośnik
+            type: string
+      - name: navCta
+        label: Przycisk w menu
+        type: string
+      - name: footerTagline
+        label: Podpis w stopce
+        type: string
+      - name: footerRights
+        label: Prawa autorskie
+        type: string

@@ -1,0 +1,12 @@
+{
+  "name": "skyshot-polska",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Strona Skyshot Polska — fotografia i film z drona",
+  "type": "module",
+  "scripts": {
+    "build": "node build.mjs",
+    "start": "node build.mjs && node --run serve",
+    "serve": "node -e \"const h=require('node:http'),f=require('node:fs'),p=require('node:path');h.createServer((q,s)=>{let u=q.url.split('?')[0];if(u==='/')u='/index.html';const t=p.join('dist',u);f.readFile(t,(e,d)=>{if(e){s.writeHead(404);return s.end('404')}const x={'.html':'text/html','.css':'text/css','.js':'text/javascript','.jpg':'image/jpeg','.png':'image/png','.xml':'application/xml','.txt':'text/plain'}[p.extname(t)]||'application/octet-stream';s.writeHead(200,{'Content-Type':x});s.end(d)})}).listen(4321,()=>console.log('Podgląd: http://localhost:4321'))\""
+  }
+}
