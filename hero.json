@@ -9,11 +9,11 @@
   "telemetry": [
     {
       "label": "Rozdzielczość",
-      "value": "4K · 60 kl/s · D-Log M"
+      "value": "4K · 60 kl/s "
     },
     {
       "label": "Pułap operacyjny",
-      "value": "do 120 m AGL"
+      "value": "do 120 m "
     },
     {
       "label": "Uprawnienia",
