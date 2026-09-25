@@ -1,0 +1,34 @@
+{
+  "eyebrow": "Pytania i odpowiedzi",
+  "heading": "Najczęstsze pytania przed zleceniem.",
+  "items": [
+    {
+      "q": "Co jeśli w dniu lotu będzie padać albo mocno wiać?",
+      "a": "Przekładamy termin bez dodatkowych kosztów. Pogodę sprawdzamy dzień wcześniej i w dniu lotu, a o zmianie informujemy z wyprzedzeniem, żeby nikt nie jechał na próżno."
+    },
+    {
+      "q": "Czy potrzebne są jakieś zgody na lot nad miastem?",
+      "a": "Formalności są po naszej stronie. Każdy lot zgłaszamy w systemie PansaUTM i sprawdzamy strefy przestrzeni powietrznej. Jeśli dany teren wymaga dodatkowej zgody, uzyskujemy ją przed lotem."
+    },
+    {
+      "q": "Kiedy dostanę gotowe zdjęcia i filmy?",
+      "a": "Zwykle w ciągu 5 dni roboczych od lotu. Materiał surowy bez obróbki może być gotowy szybciej — napisz, jeśli masz pilny termin."
+    },
+    {
+      "q": "W jakiej formie przekazujecie materiał?",
+      "a": "Zdjęcia w JPG w pełnej rozdzielczości, filmy w MP4 w 4K. Pliki udostępniamy przez link do pobrania. Na życzenie przygotujemy też wersje pionowe pod Reels i TikTok."
+    },
+    {
+      "q": "Czy mogę użyć materiału w reklamie i social mediach?",
+      "a": "Tak, w cenie zlecenia dostajesz prawo do wykorzystania materiału w swoich kanałach — na stronie, w ogłoszeniach i w social mediach. Szczegóły ustalamy przy wycenie."
+    },
+    {
+      "q": "Ile kosztuje dojazd?",
+      "a": "Dojazd w granicach Białegostoku jest w cenie. Wyjazdy poza miasto i poza województwo podlaskie wyceniamy indywidualnie, zależnie od odległości."
+    },
+    {
+      "q": "Czy muszę być obecny podczas lotu?",
+      "a": "Nie jest to konieczne. Wystarczy, że ustalimy wcześniej miejsce, zakres ujęć i ewentualny dostęp do terenu. Jeśli chcesz, możesz na miejscu obejrzeć podgląd na żywo."
+    }
+  ]
+}
