@@ -1,0 +1,13 @@
+// Ustawienia wdrożenia na Cloudflare.
+// Polecenie wdrożenia w panelu Cloudflare: npx wrangler deploy
+{
+  "name": "skyshot",
+  "main": "worker.js",
+  "compatibility_date": "2026-09-01",
+  "assets": {
+    "directory": "./dist",
+    "binding": "ASSETS",
+    // Pliki z /media/ idą najpierw przez worker.js (obsługa fragmentów dla iPhone'a)
+    "run_worker_first": ["/media/*"]
+  }
+}
