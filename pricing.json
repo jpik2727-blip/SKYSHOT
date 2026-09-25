@@ -6,8 +6,7 @@
   "tiers": [
     {
       "name": "Sesja zdjęciowa / nagraniowa",
-      "tag": "",
-      "price": "250",
+      "price": "300",
       "unit": "zł netto",
       "note": "Jedna lokalizacja",
       "points": [
@@ -21,7 +20,7 @@
     {
       "name": "Sesja z postprodukcją",
       "tag": "Najczęściej wybierana",
-      "price": "350",
+      "price": "400",
       "unit": "zł netto",
       "note": "Jedna lokalizacja · materiał gotowy",
       "points": [
@@ -62,9 +61,21 @@
     }
   ],
   "kit": [
-    { "label": "Sprzęt", "text": "DJI Mini 5 Pro · matryca 1″ CMOS · wideo 4K 60 kl/s w D-Log M" },
-    { "label": "Uprawnienia", "text": "Świadectwa kwalifikacji A1/A3 oraz A2, operator zarejestrowany w ULC" },
-    { "label": "Masa startowa", "text": "Poniżej 250 g — mniej ograniczeń przy lotach w terenie zabudowanym" },
-    { "label": "Zgłoszenia lotów", "text": "Każdy lot zgłaszany w systemie PansaUTM, zgodnie z przepisami ULC" }
+    {
+      "label": "Sprzęt",
+      "text": "DJI Mini 5 Pro · matryca 1″ CMOS · wideo 4K 60 kl/s w D-Log M"
+    },
+    {
+      "label": "Uprawnienia",
+      "text": "Świadectwa kwalifikacji A1/A3 oraz A2, operator zarejestrowany w ULC"
+    },
+    {
+      "label": "Masa startowa",
+      "text": "Poniżej 250 g — mniej ograniczeń przy lotach w terenie zabudowanym"
+    },
+    {
+      "label": "Zgłoszenia lotów",
+      "text": "Każdy lot zgłaszany w systemie PansaUTM, zgodnie z przepisami ULC"
+    }
   ]
 }
