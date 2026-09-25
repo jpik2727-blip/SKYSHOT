@@ -198,6 +198,30 @@ content:
             label: Treść
             type: text
 
+  - name: faq
+    label: Pytania i odpowiedzi
+    type: file
+    path: faq.json
+    icon: help-circle
+    fields:
+      - name: eyebrow
+        label: Etykieta sekcji
+        type: string
+      - name: heading
+        label: Nagłówek
+        type: string
+      - name: items
+        label: Pytania
+        type: object
+        list: true
+        fields:
+          - name: q
+            label: Pytanie
+            type: string
+          - name: a
+            label: Odpowiedź
+            type: text
+
   - name: contact
     label: Kontakt
     type: file
@@ -219,6 +243,10 @@ content:
       - name: phone
         label: Telefon
         type: string
+      - name: whatsapp
+        label: Numer WhatsApp
+        type: string
+        description: "Zostaw puste, żeby użyć numeru telefonu. Wpisz - (myślnik), żeby ukryć przycisk WhatsApp."
       - name: instagram
         label: Nazwa na Instagramie
         type: string
