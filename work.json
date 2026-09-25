@@ -5,7 +5,7 @@
     {
       "image": "/media/szanghaj.jpg",
       "alt": "Wieżowce Lujiazui w Szanghaju z lotu ptaka",
-      "place": "Szanghaj",
+      "place": "Szanghaj · Chiny",
       "meta": [
         "31°14′N 121°30′E"
       ],
@@ -14,7 +14,7 @@
     {
       "image": "/media/tokio.jpg",
       "alt": "Nocna panorama Tokio z drona",
-      "place": "Tokio",
+      "place": "Tokio · Japonia",
       "meta": [
         "35°42′N 139°44′E"
       ],
@@ -23,7 +23,7 @@
     {
       "image": "/media/warszawa.jpg",
       "alt": "Panorama Warszawy z lotu ptaka — Śródmieście i Pałac Kultury",
-      "place": "Warszawa · Śródmieście",
+      "place": "Warszawa · Polska",
       "meta": [
         "52°13′N 21°00′E"
       ],
