@@ -1,0 +1,220 @@
+{
+  "eyebrow": "Gdzie latałem i fotografowałem",
+  "heading": "Perspektywa z góry — od Podlasia po Pacyfik.",
+  "lede": "Kraje, w których realizowałem zdjęcia i filmy — z drona i z aparatu. Na co dzień latam w Białymstoku i na Podlasiu.",
+  "base": "Białystok",
+  "labelDrone": "Realizacje z drona",
+  "labelCam": "Fotografia naziemna",
+  "countries": [
+    {
+      "name": "Polska",
+      "photo": "/media/warszawa.jpg",
+      "type": "dron"
+    },
+    {
+      "name": "Czechy",
+      "photo": "",
+      "type": "dron"
+    },
+    {
+      "name": "Słowacja",
+      "photo": "",
+      "type": "dron"
+    },
+    {
+      "name": "Litwa",
+      "photo": "",
+      "type": "dron"
+    },
+    {
+      "name": "Łotwa",
+      "photo": "",
+      "type": "dron"
+    },
+    {
+      "name": "Estonia",
+      "photo": "",
+      "type": "dron"
+    },
+    {
+      "name": "Finlandia",
+      "photo": "",
+      "type": "dron"
+    },
+    {
+      "name": "Dania",
+      "photo": "",
+      "type": "dron"
+    },
+    {
+      "name": "Norwegia",
+      "photo": "",
+      "type": "dron"
+    },
+    {
+      "name": "Wielka Brytania",
+      "photo": "",
+      "type": "dron"
+    },
+    {
+      "name": "Włochy",
+      "photo": "",
+      "type": "dron"
+    },
+    {
+      "name": "Hiszpania",
+      "photo": "",
+      "type": "dron"
+    },
+    {
+      "name": "Portugalia",
+      "photo": "",
+      "type": "dron"
+    },
+    {
+      "name": "Turcja",
+      "photo": "",
+      "type": "dron"
+    },
+    {
+      "name": "Gruzja",
+      "photo": "",
+      "type": "dron"
+    },
+    {
+      "name": "Kazachstan",
+      "photo": "",
+      "type": "dron"
+    },
+    {
+      "name": "Kirgistan",
+      "photo": "",
+      "type": "dron"
+    },
+    {
+      "name": "Mongolia",
+      "photo": "",
+      "type": "dron"
+    },
+    {
+      "name": "Chiny",
+      "photo": "/media/szanghaj.jpg",
+      "type": "dron"
+    },
+    {
+      "name": "Hongkong",
+      "photo": "",
+      "type": "dron"
+    },
+    {
+      "name": "Tajwan",
+      "photo": "",
+      "type": "dron"
+    },
+    {
+      "name": "Japonia",
+      "photo": "/media/tokio.jpg",
+      "type": "dron"
+    },
+    {
+      "name": "Tajlandia",
+      "photo": "",
+      "type": "dron"
+    },
+    {
+      "name": "Singapur",
+      "photo": "/media/singapur-hd_1.jpg",
+      "type": "dron"
+    },
+    {
+      "name": "Indonezja",
+      "photo": "/media/gili-air.jpg",
+      "type": "dron"
+    },
+    {
+      "name": "Fidżi",
+      "photo": "/media/fidzi.jpg",
+      "type": "dron"
+    },
+    {
+      "name": "Stany Zjednoczone",
+      "photo": "",
+      "type": "dron"
+    },
+    {
+      "name": "Islandia",
+      "photo": "",
+      "type": "aparat"
+    },
+    {
+      "name": "Szwecja",
+      "photo": "",
+      "type": "aparat"
+    },
+    {
+      "name": "Niemcy",
+      "photo": "",
+      "type": "aparat"
+    },
+    {
+      "name": "Austria",
+      "photo": "",
+      "type": "aparat"
+    },
+    {
+      "name": "Węgry",
+      "photo": "",
+      "type": "aparat"
+    },
+    {
+      "name": "Rumunia",
+      "photo": "",
+      "type": "aparat"
+    },
+    {
+      "name": "Mołdawia",
+      "photo": "",
+      "type": "aparat"
+    },
+    {
+      "name": "Grecja",
+      "photo": "",
+      "type": "aparat"
+    },
+    {
+      "name": "Azerbejdżan",
+      "photo": "",
+      "type": "aparat"
+    },
+    {
+      "name": "Uzbekistan",
+      "photo": "",
+      "type": "aparat"
+    },
+    {
+      "name": "Zjednoczone Emiraty Arabskie",
+      "photo": "",
+      "type": "aparat"
+    },
+    {
+      "name": "Arabia Saudyjska",
+      "photo": "",
+      "type": "aparat"
+    },
+    {
+      "name": "Maroko",
+      "photo": "",
+      "type": "aparat"
+    },
+    {
+      "name": "Tanzania",
+      "photo": "",
+      "type": "aparat"
+    },
+    {
+      "name": "Etiopia",
+      "photo": "",
+      "type": "aparat"
+    }
+  ]
+}
