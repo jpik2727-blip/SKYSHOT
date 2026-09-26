@@ -20,7 +20,7 @@
     {
       "name": "Sesja z postprodukcją",
       "tag": "Najczęściej wybierana",
-      "price": "400",
+      "price": "500",
       "unit": "zł netto",
       "note": "Jedna lokalizacja · materiał gotowy",
       "points": [
@@ -34,7 +34,7 @@
     {
       "name": "Dzień zdjęciowy",
       "tag": "Projekty wieloetapowe",
-      "price": "1200",
+      "price": "1400",
       "unit": "zł netto",
       "note": "Kilka lokalizacji w jednym dniu",
       "points": [
@@ -48,7 +48,7 @@
     {
       "name": "Dzień zdjęciowy z postprodukcją",
       "tag": "Kompleksowa realizacja",
-      "price": "1600",
+      "price": "1800",
       "unit": "zł netto",
       "note": "Od zdjęć do gotowego materiału",
       "points": [
