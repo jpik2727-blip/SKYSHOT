@@ -270,6 +270,48 @@ content:
         label: Uwaga pod formularzem
         type: text
 
+  - name: polityka
+    label: Polityka prywatności
+    type: file
+    path: polityka.json
+    icon: shield
+    fields:
+      - name: heading
+        label: Tytuł
+        type: string
+      - name: updated
+        label: Data ostatniej aktualizacji
+        type: string
+        description: "Zmień przy każdej istotnej zmianie treści"
+      - name: administrator
+        label: Administrator danych (imię i nazwisko lub nazwa firmy)
+        type: string
+      - name: brand
+        label: Marka
+        type: string
+      - name: companyDetails
+        label: Dane firmy (NIP, adres)
+        type: text
+        description: "Uzupełnij po rejestracji firmy. Każda linia w osobnym wierszu."
+      - name: email
+        label: E-mail w sprawach danych osobowych
+        type: string
+      - name: intro
+        label: Wstęp
+        type: text
+      - name: sections
+        label: Rozdziały
+        type: object
+        list: true
+        fields:
+          - name: title
+            label: Tytuł rozdziału
+            type: string
+          - name: text
+            label: Treść
+            type: text
+            description: "Pusta linia = nowy akapit. Linia zaczynająca się od „- ” = punkt listy."
+
   - name: site
     label: Ustawienia strony
     type: file
