@@ -114,6 +114,51 @@ content:
             options:
               values: [pion, duzy, polowa, panorama]
 
+  - name: mapa
+    label: Mapa — gdzie latałem
+    type: file
+    path: mapa.json
+    icon: globe
+    fields:
+      - name: eyebrow
+        label: Etykieta sekcji
+        type: string
+      - name: heading
+        label: Nagłówek
+        type: string
+      - name: lede
+        label: Opis pod nagłówkiem
+        type: text
+      - name: base
+        label: Baza (miasto)
+        type: string
+      - name: labelDrone
+        label: Nazwa w legendzie — kraje z dronem
+        type: string
+      - name: labelCam
+        label: Nazwa w legendzie — kraje z aparatem
+        type: string
+      - name: countries
+        label: Kraje
+        type: object
+        list: true
+        fields:
+          - name: name
+            label: Kraj
+            type: select
+            options:
+              values: ["Afganistan", "Albania", "Algieria", "Angola", "Arabia Saudyjska", "Argentyna", "Armenia", "Australia", "Austria", "Azerbejdżan", "Bahamy", "Bahrajn", "Bangladesz", "Belgia", "Belize", "Benin", "Bhutan", "Białoruś", "Boliwia", "Bośnia i Hercegowina", "Botswana", "Brazylia", "Brunei", "Bułgaria", "Burkina Faso", "Burundi", "Chile", "Chiny", "Chorwacja", "Cypr", "Czad", "Czarnogóra", "Czechy", "Côte d’Ivoire", "Dania", "Demokratyczna Republika Konga", "Dominikana", "Dżibuti", "Egipt", "Ekwador", "Erytrea", "Estonia", "Eswatini", "Etiopia", "Falklandy", "Fidżi", "Filipiny", "Finlandia", "Francja", "Francuskie Terytoria Południowe i Antarktyczne", "Gabon", "Gambia", "Ghana", "Grecja", "Grenlandia", "Gruzja", "Gujana", "Gwatemala", "Gwinea", "Gwinea Bissau", "Gwinea Równikowa", "Haiti", "Hiszpania", "Holandia", "Honduras", "Hongkong", "Indie", "Indonezja", "Irak", "Iran", "Irlandia", "Islandia", "Izrael", "Jamajka", "Japonia", "Jemen", "Jordania", "Kambodża", "Kamerun", "Kanada", "Katar", "Kazachstan", "Kenia", "Kirgistan", "Kolumbia", "Kongo", "Korea Południowa", "Korea Północna", "Kostaryka", "Kuba", "Kuwejt", "Laos", "Lesotho", "Liban", "Liberia", "Libia", "Litwa", "Luksemburg", "Łotwa", "Macedonia Północna", "Madagaskar", "Makau", "Malawi", "Malezja", "Mali", "Malta", "Maroko", "Mauretania", "Meksyk", "Mjanma (Birma)", "Mołdawia", "Mongolia", "Mozambik", "Namibia", "Nepal", "Niemcy", "Niger", "Nigeria", "Nikaragua", "Norwegia", "Nowa Kaledonia", "Nowa Zelandia", "Oman", "Pakistan", "Palestyna", "Panama", "Papua-Nowa Gwinea", "Paragwaj", "Peru", "Polska", "Portoryko", "Portugalia", "Republika Południowej Afryki", "Republika Środkowoafrykańska", "Rosja", "Rumunia", "Rwanda", "Sahara Zachodnia", "Salwador", "Senegal", "Serbia", "Sierra Leone", "Singapur", "Słowacja", "Słowenia", "Somalia", "Sri Lanka", "Stany Zjednoczone", "Sudan", "Sudan Południowy", "Surinam", "Syria", "Szwajcaria", "Szwecja", "Tadżykistan", "Tajlandia", "Tajwan", "Tanzania", "Timor Wschodni", "Togo", "Trynidad i Tobago", "Tunezja", "Turcja", "Turkmenistan", "Uganda", "Ukraina", "Urugwaj", "Uzbekistan", "Vanuatu", "Wenezuela", "Węgry", "Wielka Brytania", "Wietnam", "Włochy", "Wyspy Salomona", "Zambia", "Zimbabwe", "Zjednoczone Emiraty Arabskie"]
+          - name: type
+            label: Rodzaj
+            type: select
+            options:
+              values: [dron, aparat]
+            description: "dron — kraj na czerwono; aparat — ciemniejszy odcień (zdjęcia bez drona)"
+          - name: photo
+            label: Zdjęcie po najechaniu (opcjonalnie)
+            type: string
+            description: "Ścieżka do zdjęcia, np. /media/tokio.jpg — zostaw puste, jeśli nie ma zdjęcia"
+
   - name: process
     label: Proces
     type: file
