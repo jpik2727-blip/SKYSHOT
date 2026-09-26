@@ -1,0 +1,43 @@
+{
+  "heading": "Polityka prywatności",
+  "updated": "26 września 2026",
+  "administrator": "Jakub Pikuła",
+  "brand": "Skyshot Polska",
+  "companyDetails": "",
+  "email": "skyshotpolska@gmail.com",
+  "intro": "Szanujemy Twoją prywatność. Poniżej wyjaśniamy prostym językiem, jakie dane zbieramy przez tę stronę, po co i jak długo je przechowujemy oraz jakie masz prawa.",
+  "sections": [
+    {
+      "title": "Jakie dane zbieramy",
+      "text": "Zbieramy tylko te dane, które sam nam przekażesz:\n\n- w formularzu kontaktowym: imię i nazwisko, e-mail lub numer telefonu, rodzaj zlecenia, lokalizację, planowany termin i opis,\n- gdy piszesz lub dzwonisz bezpośrednio (e-mail, telefon, WhatsApp): dane, które podasz w wiadomości lub rozmowie.\n\nNie zbieramy danych w celach marketingowych i nie wysyłamy newslettera."
+    },
+    {
+      "title": "Po co przetwarzamy dane i na jakiej podstawie",
+      "text": "- Żeby odpowiedzieć na Twoje zapytanie i przygotować wycenę — na Twoje żądanie, przed ewentualnym zawarciem umowy (art. 6 ust. 1 lit. b RODO).\n- Żeby zrealizować zlecenie, jeśli się na nie zdecydujesz — w celu wykonania umowy (art. 6 ust. 1 lit. b RODO).\n- Żeby prowadzić korespondencję i w razie potrzeby dochodzić roszczeń lub się przed nimi bronić — na podstawie naszego prawnie uzasadnionego interesu (art. 6 ust. 1 lit. f RODO).\n- Żeby wypełnić obowiązki księgowe i podatkowe związane ze zleceniem — gdy wymagają tego przepisy (art. 6 ust. 1 lit. c RODO)."
+    },
+    {
+      "title": "Kto ma dostęp do danych",
+      "text": "Twoich danych nie sprzedajemy ani nie udostępniamy w celach reklamowych. Korzystamy z usług zewnętrznych dostawców, którzy technicznie obsługują stronę i komunikację:\n\n- Web3Forms — przesyła treść formularza na naszą skrzynkę e-mail,\n- Google (Gmail) — skrzynka, na którą trafiają wiadomości,\n- Cloudflare — hosting strony; przy każdym wejściu na stronę serwer przetwarza techniczne dane połączenia, np. adres IP,\n- WhatsApp (Meta) — jeśli skontaktujesz się z nami przez ten komunikator.\n\nCzęść z tych dostawców ma siedzibę lub serwery poza Europejskim Obszarem Gospodarczym. Przekazanie danych odbywa się wtedy na zasadach przewidzianych w RODO, takich jak standardowe klauzule umowne zatwierdzone przez Komisję Europejską."
+    },
+    {
+      "title": "Jak długo przechowujemy dane",
+      "text": "- Zapytania, z których nie wynikło zlecenie — przez 12 miesięcy od ostatniego kontaktu, a potem je usuwamy.\n- Dane klientów — przez czas realizacji zlecenia, a następnie do upływu terminu przedawnienia ewentualnych roszczeń.\n- Dokumenty księgowe — przez okres wymagany przepisami podatkowymi."
+    },
+    {
+      "title": "Twoje prawa",
+      "text": "Masz prawo do:\n\n- dostępu do swoich danych i otrzymania ich kopii,\n- sprostowania nieprawidłowych danych,\n- usunięcia danych,\n- ograniczenia przetwarzania,\n- przeniesienia danych,\n- sprzeciwu wobec przetwarzania opartego na naszym prawnie uzasadnionym interesie.\n\nAby skorzystać z tych praw, napisz na adres podany wyżej. Masz też prawo złożyć skargę do Prezesa Urzędu Ochrony Danych Osobowych (ul. Stawki 2, 00-193 Warszawa, uodo.gov.pl)."
+    },
+    {
+      "title": "Czy musisz podawać dane",
+      "text": "Podanie danych jest dobrowolne, ale bez danych kontaktowych nie będziemy mogli odpowiedzieć na zapytanie ani przygotować wyceny."
+    },
+    {
+      "title": "Pliki cookies i statystyki",
+      "text": "Strona nie używa plików cookies ani narzędzi do śledzenia i statystyk odwiedzin. Czcionki i pozostałe pliki strony ładują się z naszego serwera, bez udziału zewnętrznych dostawców.\n\nJeśli zatrzymasz film w nagłówku, przeglądarka zapamięta ten wybór w pamięci Twojego urządzenia (localStorage). Ta informacja nie jest nigdzie wysyłana."
+    },
+    {
+      "title": "Zmiany polityki",
+      "text": "Jeśli zmienimy sposób przetwarzania danych, zaktualizujemy tę stronę i datę na górze."
+    }
+  ]
+}
